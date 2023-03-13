@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Femboy Quiz</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+</head>
+<body>
+  <div id="snowflake-container"></div>
+  <div class="container">
+    <h1>Femboy Quiz</h1>
+    <p id="question" class="question"></p>
+    <div class="button-container">
+      <button class="button yes" onclick="checkAnswer(true)">Yes</button>
+      <button class="button no" onclick="checkAnswer(false)">No</button>
+    </div>
+    <p id="score" class="score"></p>
+    <p id="result" class="result"></p>
+  </div>
+  <script src="quiz.js"></script>
+  <script src="snowflake.js"></script>
+</body>
+</html>

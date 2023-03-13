@@ -1,5 +1,5 @@
 let score = 0;
-let currentQuestion = 1;
+let currentQuestion = 0;
 
 new cursoreffects.fairyDustCursor({ element: document.querySelector("#fairyDust") })
 
