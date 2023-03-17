@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Random Art Generator</title>
+	<link rel="stylesheet" type="text/css" href="art.css">
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<div id="controls">
+		<button id="refresh-btn">Refresh</button>
+		<button id="settings-btn">Settings</button>
+		<div id="settings">
+			<h2>Settings</h2>
+			<label for="num-shapes">Number of Shapes:</label>
+			<input type="range" id="num-shapes" min="10" max="100" value="50">
+			<label for="size-range">Size Range:</label>
+			<input type="range" id="size-range" min="10" max="100" value="50">
+			<label for="hue-range">Hue Range:</label>
+			<input type="range" id="hue-range" min="0" max="360" value="180">
+			<label for="sat-range">Saturation Range:</label>
+			<input type="range" id="sat-range" min="0" max="100" value="50">
+			<label for="light-range">Lightness Range:</label>
+			<input type="range" id="light-range" min="0" max="100" value="50">
+			<button id="save-btn">Save Settings</button>
+			<button id="cancel-btn">Cancel</button>
+		</div>
+	</div>
+	<script src="art.js"></script>
+</body>
+</html>
