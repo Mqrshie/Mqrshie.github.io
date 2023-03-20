@@ -1,4 +1,4 @@
-let score = 0;
+let score = -5;
 let currentQuestion = 0;
 
 new cursoreffects.fairyDustCursor({ element: document.querySelector("#fairyDust") })
@@ -55,7 +55,7 @@ function displayQuestion(questionNum) {
       questionText = "Question 12: Do you like to accessorize with jewelery or hair accessories?";
       break;
     case 13:
-      questionText = "Question 13: Are you Dominant or Submissive. Dominant meaning the one controlling in sex and Submissive meaning the one being controlled etc..";
+      questionText = "Question 13: Are you Submissive?";
       break;
     case 14:
       questionText = "Question 14: Do you like to experiment with different hairstyles?";
