@@ -55,7 +55,7 @@ function displayQuestion(questionNum) {
       questionText = "Question 12: Do you like to accessorize with jewelery or hair accessories?";
       break;
     case 13:
-      questionText = "Question 13: Are you Submissive?";
+      questionText = "Question 13: Do you like cuddling?";
       break;
     case 14:
       questionText = "Question 14: Do you like to experiment with different hairstyles?";
